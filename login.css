@@ -1,0 +1,79 @@
+main{
+    width: 1600px;
+    height: 820px;
+    margin: auto;
+    background-color: #424890;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    border-radius: 2%;
+    margin-bottom: 50px;
+}
+
+#login{
+    display: block;
+}
+
+#signin{
+    display: none;
+}
+
+#signup{
+    display: none;
+}
+
+#checkbox{
+    display: flex;
+}
+
+
+.category{
+    text-align: center;
+    border: 2px solid rgb(5 23 50);
+    width: 79%;
+    margin: 300px;
+    margin-bottom: 25px;
+    margin-top: -137px;
+} 
+
+input{
+    display: block;
+    background-color: rgb(38, 39, 39);
+    color: white;
+    width: 426px;
+    margin: auto;
+    margin-bottom: 7px;
+    padding: 15px 14px;
+    border: 1px solid #8c96ee;
+    border-radius: 12%;
+    font-size: small;
+} 
+
+.bttn{
+    justify-items: center;
+    align-items: center;
+    display: grid;
+}
+
+.bttn button{
+    padding: 13px;
+    margin: 2px;
+    width: 122px;
+    border-radius: 50%;
+    background-color: coral;
+    border: 1.2px solid rgb(100, 56, 40);
+}
+
+.bttn button:hover{
+    background-color: aqua;
+}
+
+button{
+    width: 43%;
+    display: inline;
+}
+
+#welcome{
+    text-align: center;
+    align-items: center;
+}
